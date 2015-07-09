@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=pulkit
-Date                   :=02/06/2015
+Date                   :=07/07/2015
 CodeLitePath           :="D:\Program Files\CodeLite"
 LinkerName             :=D:/Anaconda/MinGW/bin/g++.exe
 SharedObjectLinkerName :=D:/Anaconda/MinGW/bin/g++.exe -shared -fPIC
@@ -62,7 +62,7 @@ AS       := D:/Anaconda/MinGW/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=D:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/coolnumber.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/MCHEF.CPP$(ObjectSuffix) 
 
 
 
@@ -89,13 +89,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/coolnumber.cpp$(ObjectSuffix): coolnumber.cpp $(IntermediateDirectory)/coolnumber.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Code/Codes/test/coolnumber.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/coolnumber.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/coolnumber.cpp$(DependSuffix): coolnumber.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/coolnumber.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/coolnumber.cpp$(DependSuffix) -MM "coolnumber.cpp"
+$(IntermediateDirectory)/MCHEF.CPP$(ObjectSuffix): MCHEF.CPP $(IntermediateDirectory)/MCHEF.CPP$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Code/Codes/test/MCHEF.CPP" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/MCHEF.CPP$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/MCHEF.CPP$(DependSuffix): MCHEF.CPP
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/MCHEF.CPP$(ObjectSuffix) -MF$(IntermediateDirectory)/MCHEF.CPP$(DependSuffix) -MM "MCHEF.CPP"
 
-$(IntermediateDirectory)/coolnumber.cpp$(PreprocessSuffix): coolnumber.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/coolnumber.cpp$(PreprocessSuffix) "coolnumber.cpp"
+$(IntermediateDirectory)/MCHEF.CPP$(PreprocessSuffix): MCHEF.CPP
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/MCHEF.CPP$(PreprocessSuffix) "MCHEF.CPP"
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

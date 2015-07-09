@@ -15,9 +15,9 @@ int main() {
         scanf("%d %d",&num,&k);
         string binary = bitset<8>(num).to_string();
         for(int i=0;i<sizeof(binary)-2;i++) {
-            if(binary[i]=='1' && binary[i+1]=='0'&&binary[i+2]=='1')
+            if(binary[i]=='1' && binary[i+1]=='0'&&binary[i+2]=='1') {
                 count++;
-                
+            }
         }
         printf("%d\n",count);
     }

@@ -33,7 +33,15 @@
     <File Name="CommonChild.cpp" ExcludeProjConfig="Debug"/>
     <File Name="volume-count.cpp" ExcludeProjConfig="Debug"/>
     <File Name="Isenbaevnumber.cpp" ExcludeProjConfig="Debug"/>
-    <File Name="coolnumber.cpp"/>
+    <File Name="coolnumber.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="rvroot.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="pile.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="sulp.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="shot.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="hour.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="maximu.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="INVCNT.cpp" ExcludeProjConfig="Debug"/>
+    <File Name="MCHEF.CPP"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

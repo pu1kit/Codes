@@ -1,0 +1,9 @@
+[{
+  "directory": "D:\\Code\\Codes\\test",
+  "command": "D:/Anaconda/MinGW/bin/g++.exe -g -O0 -Wall -I. -I. -MG -MP -MT./Debug/INVCNT.cpp.o -MF./Debug/INVCNT.cpp.o.d -MM INVCNT.cpp",
+  "file": "D:\\Code\\Codes\\test\\INVCNT.cpp"
+ }, {
+  "directory": "D:\\Code\\Codes\\test",
+  "command": "D:/Anaconda/MinGW/bin/g++.exe -c D:/Code/Codes/test/INVCNT.cpp -g -O0 -Wall -o ./Debug/INVCNT.cpp.o -I. -I.",
+  "file": "D:\\Code\\Codes\\test\\INVCNT.cpp"
+ }]
